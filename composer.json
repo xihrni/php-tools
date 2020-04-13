@@ -1,0 +1,20 @@
+{
+    "name": "xihrni/php-tools",
+    "description": "This is the tool class for PHP.",
+    "keywords": ["php", "tool", "tools"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xihrni",
+            "email": "xihrni@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "xihrni\\tools\\": "src/"
+        }
+    }
+}
