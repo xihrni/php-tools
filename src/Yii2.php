@@ -19,7 +19,7 @@ class Yii2
      * @param  array  $ids    临时存放当前已获取的模块ID
      * @return array
      */
-    public function getFullModuleId($module, array &$ids)
+    public static function getFullModuleId($module, array &$ids)
     {
         if (isset($module->id)) {
             $ids[] = $module->id;
