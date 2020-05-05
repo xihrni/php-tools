@@ -27,7 +27,7 @@ class Yii2
             if ($module->module) {
                 // 过滤框架ID
                 if ($module->module->id != Yii::$app->id) {
-                    $this->getFullModuleId($module->module, $ids);
+                    static::getFullModuleId($module->module, $ids);
                 }
             }
         }
