@@ -81,4 +81,16 @@ if (Verify::idCardNumber('110101199003078910')) {
 } else {
     // false
 }
+
+if (Verify::isMobile()) {
+    // true
+} else {
+    // false
+}
+
+if (Verify::isWechat()) {
+    // true
+} else {
+    // false
+}
 ```
