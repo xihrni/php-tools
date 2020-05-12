@@ -67,3 +67,18 @@ $list = [
 $tree = Arrays::list2Tree($list);
 var_dump($tree);
 ```
+
+### Verify
+```php
+<?php
+
+use xihrni\tools\Verify;
+
+// ...
+
+if (Verify::idCardNumber('110101199003078910')) {
+    // true
+} else {
+    // false
+}
+```
