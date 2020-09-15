@@ -66,6 +66,10 @@ $list = [
 
 $tree = Arrays::list2Tree($list);
 var_dump($tree);
+
+$remark  = '操作，1=>管理员创建卡券，2=>管理员更新卡券，3=>管理员删除卡券，12=>用户使用卡券券码';
+$operate = Arrays::str2Enum($remark, '，', '=>');
+var_dump($operate);
 ```
 
 ### Verify
