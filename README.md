@@ -31,6 +31,11 @@ public function beforeAction($action)
 {
     $moduleId = Yii2::getFullModuleId($action->controller->module, $ids = []);
 }
+
+
+// ...
+
+backupDataTableForSql(User::tableName());
 ```
 
 ### Arrays
