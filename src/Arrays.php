@@ -49,7 +49,7 @@ class Arrays
      * @param  string [$separator2 = '=>'] 分隔符2
      * @return array
      */
-    public function str2Enum($str, $separator = '，', $separator2 = '=>')
+    public static function str2Enum($str, $separator = '，', $separator2 = '=>')
     {
         $enum  = [];
         $array = explode($separator, $str);
